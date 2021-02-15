@@ -1,4 +1,4 @@
-
+/*  */
 section{display:block;}
 a{background-color:transparent;}
 a:active,a:hover{outline:0;}
@@ -155,6 +155,7 @@ a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-of
 	height:100%;
     width: 100%;
     background-attachment: fixed;
+    padding-top: 100px;
 }
 #myCarousel h4{
 	font-size:50px;
@@ -329,4 +330,14 @@ a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-of
 .slideInRight {
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .slider-img {
+        display:none;
+    }
 }
