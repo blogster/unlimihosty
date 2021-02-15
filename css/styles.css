@@ -99,6 +99,8 @@ a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-of
 .main-navigational-menus-div{
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 50;
+  margin-bottom: 100px;
 }
 
 
@@ -339,5 +341,8 @@ a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-of
 @media (max-width: 767px) {
     .slider-img {
         display:none;
+    }
+    .slider-controllers{
+      display: none;
     }
 }
