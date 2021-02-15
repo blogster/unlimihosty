@@ -101,7 +101,7 @@ a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-of
   padding-right: 20px;
 
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 
@@ -158,6 +158,7 @@ a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-of
 	height:100%;
     width: 100%;
     background-attachment: fixed;
+    padding-top: 100px;
 }
 #myCarousel h4{
 	font-size:30px;
