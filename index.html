@@ -291,8 +291,28 @@ By Let's Encrypt. You can install Let’s Encrypt certificates for free  <br>
 -->
 </section>
 
-<section>
-  
+<section id="domain-checker">
+  <div class="container">
+  <h1 class="title">Domain Search</h1>
+    <div class="row">
+      <div class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+        <form action="https://unlimihosty.com/billing/cart.php?a=add&domain=register" method="post">
+		<input type="hidden" name="direct" value="true">
+          <div class="input-group custom-search-forvm"> <span class="input-group-btn">
+            <button class="btn btn-default domainsearchprefix" id="xshidden" type="button" disabled="disabled">www.</button>
+            </span>
+            <input name="domain" type="text" class="form-control domainsearchdomainname" value="mydomain.com" onclick="javascript: this.value = &quot;&quot;" id="domainsearch" placeholder="mydomain.com">
+            <select name="ext" class="form-control domaincheckselect" id="xshidden">
+           <option style="display:none;"></option>
+            </select>
+            <span class="input-group-btn">
+            <button class="btn btn-default domainsearchsubmit" type="submit"><i class="fa fa-search"></i>Search</button>
+            </span> </div>
+          <!-- /input-group -->
+        </form>
+      </div>
+    </div>
+  </div>
 </section>
 
 </body>
